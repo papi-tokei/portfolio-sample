@@ -12,32 +12,44 @@
         no-gutters
       >
         <v-col class="col-4">
-            <v-container fluid="">
-              <v-row  justify="center">
-                  <v-img
-                    src="@/icon_image.png"
-                    max-width="250">
-                  </v-img>
-              </v-row>
-            </v-container>
+          <v-container fluid="">
+            <v-row  justify="center">
+                <v-img
+                  src="@/icon_image.png"
+                  max-width="250">
+                </v-img>
+            </v-row>
+          </v-container>
           <v-row
             no-gutters
           >
             <v-col>
-              <v-card
-                class="pa-2"
-                outlined
-                tile
-              >
-                One of three columns
-                One of three columns
-                One of three columns
-              </v-card>
+              <p class="title">Twitter</p>
+            </v-col>
+            <v-col>
+              <v-icon color="#55acee" x-large>mdi-twitter</v-icon>
             </v-col>
           </v-row>
-          <v-icon color="#55acee" x-large>mdi-twitter</v-icon>
-          <v-icon color="#3b5998" x-large>mdi-facebook</v-icon>
-          <v-icon color="black" x-large>mdi-github-circle</v-icon>
+          <v-row
+            no-gutters
+          >
+            <v-col>
+              <p class="title">Facebook</p>
+            </v-col>
+            <v-col>
+              <v-icon color="#3b5998" x-large>mdi-facebook</v-icon>
+            </v-col>
+          </v-row>
+          <v-row
+            no-gutters
+          >
+            <v-col>
+              <p class="title">GitHub</p>
+            </v-col>
+            <v-col>
+              <v-icon color="black" x-large>mdi-github-circle</v-icon>
+            </v-col>
+          </v-row>
         </v-col>
         <v-col>
           <v-row>
