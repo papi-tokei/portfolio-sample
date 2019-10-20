@@ -14,16 +14,10 @@
         <v-col class="col-4">
             <v-container fluid="">
               <v-row  justify="center">
-                <v-card
-                  class="pa-2"
-                  outlined
-                  tile
-                >
                   <v-img
                     src="@/icon_image.png"
                     max-width="250">
                   </v-img>
-                </v-card>
               </v-row>
             </v-container>
           <v-row
@@ -60,7 +54,7 @@
             <v-col>
               <v-row
                 no-gutters
-                class="pb-4"
+                class="pb-8"
               >
                 <v-col>
                   <v-card
@@ -80,7 +74,7 @@
               </v-row>
               <v-row
                 no-gutters
-                class="pb-4"
+                class="pb-8"
               >
                 <v-col>
                   <v-card
@@ -89,10 +83,33 @@
                     tile
                     color="#ead1dc"
                   >
-                    <p class="title">興味のある技術</p>
-                    <p>Linux</p>
-                    <p>AWS</p>
-                    <p>Vue.js</p>
+                    <p class="title mb-0">興味のある技術</p>
+                    <v-list class="transparent">
+                      <v-list-item class="">
+                        <v-list-item-icon>
+                          <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-content>
+                          Linux
+                        </v-list-item-content>
+                      </v-list-item>
+                      <v-list-item class="my-n4">
+                        <v-list-item-icon>
+                          <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-content>
+                          AWS
+                        </v-list-item-content>
+                      </v-list-item>
+                      <v-list-item class="">
+                        <v-list-item-icon>
+                          <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-content>
+                          Vue.js
+                        </v-list-item-content>
+                      </v-list-item>
+                    </v-list>
                   </v-card>
                 </v-col>
               </v-row>
