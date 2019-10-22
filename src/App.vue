@@ -5,7 +5,7 @@
         no-gutters
       >
         <v-col>
-          <div class="display-1 port-title">マイポートフォリオ</div>
+          <div class="display-1 pl-3 pt-3 pb-3 port-title">マイポートフォリオ</div>
         </v-col>
       </v-row>
       <v-row
@@ -19,37 +19,46 @@
                   max-width="250">
                 </v-img>
             </v-row>
+            <v-row  justify="center">
+              <p class="display-1 mt-4">あっきー</p>
+            </v-row>
+            <v-row class="">
+              <v-col class="col-2">
+              </v-col>
+              <v-col>
+                <p class="title">Twitter</p>
+              </v-col>
+              <v-col justify-self="center">
+                <v-btn href="https://twitter.com/?lang=ja" target="_blank" text>
+                  <v-icon color="#55acee" x-large>mdi-twitter</v-icon>
+                </v-btn>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col class="col-2">
+              </v-col>
+              <v-col>
+                <p class="title">Facebook</p>
+              </v-col>
+              <v-col>
+                <v-btn href="https://www.facebook.com/" target="_blank" text>
+                  <v-icon color="#3b5998" x-large>mdi-facebook</v-icon>
+                </v-btn>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col class="col-2">
+              </v-col>
+              <v-col>
+                <p class="title">GitHub</p>
+              </v-col>
+              <v-col>
+                <v-btn href="https://github.com/" target="_blank" text>
+                  <v-icon color="black" x-large>mdi-github-circle</v-icon>
+                </v-btn>
+              </v-col>
+            </v-row>
           </v-container>
-          <v-row
-            no-gutters
-          >
-            <v-col>
-              <p class="title">Twitter</p>
-            </v-col>
-            <v-col>
-              <v-icon color="#55acee" x-large>mdi-twitter</v-icon>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col>
-              <p class="title">Facebook</p>
-            </v-col>
-            <v-col>
-              <v-icon color="#3b5998" x-large>mdi-facebook</v-icon>
-            </v-col>
-          </v-row>
-          <v-row
-            no-gutters
-          >
-            <v-col>
-              <p class="title">GitHub</p>
-            </v-col>
-            <v-col>
-              <v-icon color="black" x-large>mdi-github-circle</v-icon>
-            </v-col>
-          </v-row>
         </v-col>
         <v-col>
           <v-row>
@@ -68,9 +77,9 @@
                 no-gutters
                 class="pb-8"
               >
-                <v-col>
+                <v-col class="col-11">
                   <v-card
-                    class="pa-2"
+                    class="pt-4 pb-1 pr-4 pl-4"
                     outlined
                     tile
                     color="#cfe2f3"
@@ -88,9 +97,9 @@
                 no-gutters
                 class="pb-8"
               >
-                <v-col>
+                <v-col class="col-11">
                   <v-card
-                    class="pa-2"
+                    class="pt-4 pb-1 pr-4 pl-4"
                     outlined
                     tile
                     color="#ead1dc"
@@ -128,9 +137,9 @@
               <v-row
                 no-gutters
               >
-                <v-col>
+                <v-col class="col-11">
                   <v-card
-                    class="pa-2"
+                    class="pt-4 pb-1 pr-4 pl-4"
                     outlined
                     tile
                     color="#f5e4bf"
