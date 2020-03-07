@@ -20,7 +20,7 @@
                 </v-img>
             </v-row>
             <v-row  justify="center">
-              <p class="display-1 mt-4">XX_ここに名前を入力します</p>
+              <p class="display-1 mt-4">あっきー</p>
             </v-row>
             <v-row class="">
               <v-col class="col-2">
