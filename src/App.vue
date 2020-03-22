@@ -15,12 +15,12 @@
           <v-container fluid="">
             <v-row  justify="center">
                 <v-img
-                  src="@/icon_image.png"
+                  :src="require('@/icon_image.png')"
                   max-width="250">
                 </v-img>
             </v-row>
             <v-row  justify="center">
-              <p class="display-1 mt-4">あっきー</p>
+              <p class="display-1 mt-4">XX_ここに名前を入力します</p>
             </v-row>
             <v-row class="">
               <v-col class="col-2">
@@ -54,7 +54,7 @@
               </v-col>
               <v-col>
                 <v-btn href="https://github.com/" target="_blank" text>
-                  <v-icon color="black" x-large>mdi-github-circle</v-icon>
+                  <v-icon color="black" x-large>mdi-github</v-icon>
                 </v-btn>
               </v-col>
             </v-row>
